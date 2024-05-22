@@ -16,7 +16,7 @@ function generateMarkdown(data) {
   
   ## Description
 
-  ${data.title}
+  ${data.description}
 
   ## Table of Contents
 
@@ -27,15 +27,15 @@ function generateMarkdown(data) {
 
 ## Installation
 
-${data.title}
+${data.installation}
 
 ## Usage
 
-${data.title}
+${data.usage}
 
 ## Credits
 
-${data.title}
+${data.credits}
 
 ## License
 
@@ -47,11 +47,11 @@ ${data.title}
 
 ## Features
 
-${data.title}
+${data.features}
 
 ## How to Contribute
 
-${data.title}
+${data.contribute}
 
   `;
 }

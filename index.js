@@ -23,28 +23,28 @@ const questions = [
     {
         type: "input",
         message: "Provide instructions and examples for use",
-        name: "name"
+        name: "usage"
     },
     {
         type: "input",
         message: "Add some credits, list your collaborators",
-        name: "name"
+        name: "credits"
     },
     {
         type: "list",
         message: "Choose a license",
-        name: "name",
+        name: "license",
         choices: ["non-verbal", "verbal"]
     },
     {
         type: "input",
         message: "Add the features of your project",
-        name: "name"
+        name: "features"
     },
     {
         type: "input",
-        message: "How can other people contribute?",
-        name: "name"
+        message: "How can other people can contribute?",
+        name: "contribute"
     }
 ];
 
