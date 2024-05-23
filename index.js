@@ -12,7 +12,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please privde a short description",
+        message: "Please provide a short description",
         name: "description"
     },
     {
@@ -50,7 +50,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-        fs.writeFile(`${fileName}.md`, readMeCreator.generateMarkdown(data), (error) => {
+        fs.writeFile(`${data.title.replace(/\s+/g, '_')}_${fileName}.md`, readMeCreator.generateMarkdown(data), (error) => {
           if (error) {
             console.log(error);
           }
