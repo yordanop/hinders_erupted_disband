@@ -25,16 +25,16 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license){
     case "MIT":
-      return
+      return "[MIT](https://choosealicense.com/licenses/mit/)"
       
     case "GNU GPL v3":
-      return "https://choosealicense.com/licenses/agpl-3.0/"
+      return "[GNU GPL v3](https://choosealicense.com/licenses/agpl-3.0/)"
       
     case "GNU AGPL v3":
-      return "https://choosealicense.com/licenses/agpl-3.0/"
+      return "[GNU AGPL v3](https://choosealicense.com/licenses/agpl-3.0/)"
       
     case "Mozilla Public License 2.0":
-      return "https://choosealicense.com/licenses/mpl-2.0/"
+      return "[Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)"
     
     default:
       return "";
@@ -45,6 +45,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `${renderLicenseBadge(license)}
+
    ${renderLicenseLink(license)}`
 }
 
@@ -78,9 +79,6 @@ ${data.credits}
 ## License
 
 ${renderLicenseSection(data.license)}
-
-
-## Badges
 
 
 ## Features
