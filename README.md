@@ -2,7 +2,9 @@
   
   ## Description
 
-  This aplication asks for users input to create a professional README File
+  This aplication asks for users input to create a professional README File.
+
+  https://drive.google.com/file/d/12uErWsRXo8RW0E-dSW_ckh-3DQsWlQ2Q/preview
 
 ![alt text](./Assets/images/application_screenshot.png)
 
