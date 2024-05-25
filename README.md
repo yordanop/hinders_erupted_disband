@@ -1,41 +1,34 @@
-# kjbsdfnsdf
+# README Generator
   
   ## Description
 
-  ksjdbfhjdss
+  This aplication asks for users input to create a professional README File
 
-  ## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+![alt text](./Assets/images/application_screenshot.png)
 
 ## Installation
 
-kjsbdfhbsdf
+First user need to have installed inquirer version 8.2.4
 
 ## Usage
 
-skjdbhfsjdhf
+Answer the questions that are prompted. 
 
 ## Credits
 
-kjsfvjhskdbjf
+I want to thank my Instructor Chriss Stallcup for all his support.
 
 ## License
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) ss 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-   [GNU GPL v3](https://choosealicense.com/licenses/agpl-3.0/)
+   [MIT](https://choosealicense.com/licenses/mit/)
 
 
 ## Features
 
-hgdvjsjfksdf
+A fast and easy to use README generator
 
-## How to Contribute
 
-sdfvskdjf
 
   
