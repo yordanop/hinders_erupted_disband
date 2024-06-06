@@ -1,6 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+// Switch case to select the link to the license information depending on the License chosen
+
   switch (license){
     case "MIT":
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -23,6 +25,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  // Switch case to select the link to the badge depending on the License chosen
   switch (license){
     case "MIT":
       return "[MIT](https://choosealicense.com/licenses/mit/)"
@@ -51,11 +54,17 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  // Start to arrange tha answers in the README text
   return `# ${data.title}
   
   ## Description
 
   ${data.description}
+
+  ## Questions
+
+  My email : ${data.email}
+  My Github page : https://github.com/${data.gitHubUsername}
 
   ## Table of Contents
 
@@ -92,4 +101,5 @@ ${data.contribute}
   `;
 }
 
+// Exporting the generateMarkdown Object
 module.exports = {generateMarkdown};
