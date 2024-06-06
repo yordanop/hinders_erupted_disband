@@ -4,7 +4,7 @@
 
   This aplication asks for users input to create a professional README File.
 
-  https://drive.google.com/file/d/12uErWsRXo8RW0E-dSW_ckh-3DQsWlQ2Q/preview
+https://drive.google.com/file/d/17r0P3_vbo7gBw9e0WO2BhQQaMYesezkS/view
 
 ![alt text](./Assets/images/application_screenshot.png)
 
