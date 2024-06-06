@@ -65,7 +65,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     // writefile function that will call the readMeCreator class and the generateMarkdown method to get the README structure
-        fs.writeFile(`${data.title.replace(/\s+/g, '_')}_${fileName}.md`, readMeCreator.generateMarkdown(data), (error) => {
+        fs.writeFile(`README_Generated_Files/${data.title.replace(/\s+/g, '_')}_${fileName}.md`, readMeCreator.generateMarkdown(data), (error) => {
           if (error) {
             console.log(error);
           }
