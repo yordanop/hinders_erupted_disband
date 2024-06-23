@@ -61,6 +61,8 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ![alt text](./route_to_image.png)
+
   ## Questions
 
   My email : ${data.email}
